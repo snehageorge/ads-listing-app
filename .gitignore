@@ -1,0 +1,36 @@
+# Xcode
+#
+
+## User settings
+*.xcuserdatad/
+*.xcscmblueprint
+*.xcuserdata
+xcuserdata/
+project.xcworkspace/xcuserdata/
+
+# Scheme management
+xcshareddata/xcschemes/xcschememanagement.plist
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+.DS_Store
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+ Packages/
+ Package.pins
+ Package.resolved
+# Ignore Package.resolved from anywhere in the project
+**/Package.resolved
+
+
+.build/

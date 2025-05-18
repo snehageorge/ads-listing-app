@@ -16,6 +16,7 @@ This is a SwiftUI-based ads listing app that fetches ads from a remote API and d
 - Show a user-facing message or banner to indicate API errors. Include HTTP status code validation in the API service.
 - Add unit tests and UI tests.
 - Add a toast message to confirm when an ad has been added to or removed from favorites.
+- Sync favorite ads with latest API data. Currently, local favorites are not updated when ads change.
 - Refresh all ads data when the app returns to the foreground to avoid showing outdated or empty content.
 
 ### What I Could Have Done with More Time
